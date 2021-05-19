@@ -2,7 +2,7 @@
 """
 Created on Wed Jul 22 15:56:47 2020
 
-@author: Karan
+@author: Saksham
 """
 
 
@@ -67,8 +67,8 @@ model.save('mymodel.h5',model_saved)
 #To test for individual images
 
 mymodel=load_model('mymodel.h5')
-#test_image=image.load_img('C:/Users/Karan/Desktop/ML Datasets/Face Mask Detection/Dataset/test/without_mask/30.jpg',target_size=(150,150,3))
-test_image=image.load_img(r'C:/Users/karan/Desktop/FaceMaskDetector/test/with_mask/1-with-mask.jpg',
+#test_image=image.load_img('C:/Users/saksham/Desktop/ML Datasets/Face Mask Detection/Dataset/test/without_mask/30.jpg',target_size=(150,150,3))
+test_image=image.load_img(r'C:/Users/saksham/Desktop/FaceMaskDetector/test/with_mask/1-with-mask.jpg',
                           target_size=(150,150,3))
 test_image
 test_image=image.img_to_array(test_image)
