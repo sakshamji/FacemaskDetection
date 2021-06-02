@@ -1,4 +1,4 @@
-# Face-Mask Detector
+# Face-Mask Detection
 Real time face-mask detection using Deep Learning and OpenCV
 
 ## About Project
